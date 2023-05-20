@@ -72,6 +72,10 @@ p {
   color: rgb(54, 70, 101);
 }
 
+ul {
+  /* padding: 0; */
+}
+
 ul li {
   font-size: 2.4rem;
   height: 40px;
@@ -81,6 +85,13 @@ ul li {
 }
 ul li:hover {
   background-color: rgb(216, 255, 255);
+}
+
+ul li p {
+  color: rgb(54, 70, 101);
+  font-size: 2.4rem;
+  margin: 0;
+
 }
 
 ul li button:hover {
@@ -97,9 +108,11 @@ button {
   position: absolute;
   right: 0;
   top: 8px;
+  text-align: end;
   border: none;
   font-size: 1.6rem;
   background-color: transparent;
   font-family: "Roboto Slab", serif;
   color: red;
+  padding: 0;
 }
